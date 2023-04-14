@@ -3,7 +3,7 @@
 
 function findAverage(array) {
   let sum = array.reduce((acc, c) => {
-    return c + acc
+    return acc + c
   }, 0)
   return sum / array.length
 }
