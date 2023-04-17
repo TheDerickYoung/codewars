@@ -3,6 +3,4 @@
 //'world'  =>  'dlrow'
 //'word'   =>  'drow'
 
-function solution(str){
-  return str.reverse();
-}
+const solution = str => {return str.split('').reverse().join('')}
