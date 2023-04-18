@@ -4,7 +4,5 @@
 //If he doesn't get 10 hoops, return the string "Keep at it until you get it".
 
 function hoopCount (n) {
-   for(let i = 1; i <= n; i++) {
-     return n >= 10 ? `Great, now move on to tricks` : `Keep at it until you get it`
-   }    
+  return n >= 10 ? `Great, now move on to tricks` : `Keep at it until you get it`
 }
