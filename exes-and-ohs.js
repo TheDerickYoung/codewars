@@ -13,11 +13,7 @@ function XO(str) {
   let oCount = 0;
   let lowercaseStr = str.toLowerCase();
   for (let i = 0; i < lowercaseStr.length; i++) {
-    if (lowercaseStr[i] === 'x') {
-      xCount++;
-    } else if (lowercaseStr[i] === 'o') {
-      oCount++;
-    }
+    lowercaseStr[i] === 'x' ? xCount++ : lowercaseStr[i] === 'o' ? oCount++ : false
   }
   return xCount === oCount;
 }
