@@ -18,15 +18,3 @@ function sortArray(array) {
   }
   return array
 }
-
-//refactored code below - creating a new array by filtering argument array and replacing matching conditions with elements in odds and evens sorted arrays 
-
-function sortArrayRefactored(array) {
-let odds = array.filter(e => e % 2 !== 0).sort((a, b) => a - b);
-let evens = array.filter(e => e % 2 === 0);
-let result = [];
-for (let i = 0; i < array.length; i++) {
-result.push(array[i] % 2 === 0 ? evens.shift() : odds.shift());
-}
-return result;
-}
