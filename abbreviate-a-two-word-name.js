@@ -12,3 +12,5 @@ function abbrevName(name){
   let split = name.split(' ')
   return split[0].split('')[0].toUpperCase() + '.' + split[1].split('')[0].toUpperCase()
 }
+
+//Good job derick
