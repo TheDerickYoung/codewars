@@ -19,13 +19,13 @@
 //30 --> "drink whisky"
 
 function peopleWithAgeDrink(old) {
-  if (old > 20) {
-    return 'drink whisky'
-  } else if (old > 18 || old < 21) {
-    return `drink beer`
-  } else if (old > 12 || old < 19) {
-    return 'drink coke'
+  if (old < 14) {
+    return "drink toddy";
+  } else if (old < 18) {
+    return "drink coke";
+  } else if (old < 21) {
+    return "drink beer";
   } else {
-    return 'drink toddy'
+    return "drink whisky";
   }
 };
