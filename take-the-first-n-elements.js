@@ -3,3 +3,4 @@ Create a function that accepts a list/array and a number n, and returns a list/a
 function take(arr, n) {
   return arr.slice(0,n)
 }
+const take = (arr,n) => return arr.slice(0,n)
