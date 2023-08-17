@@ -20,3 +20,12 @@ function  calculateAge(birthYear, targetYear) {
     return `You were born this very year!`
   }
 }
+
+//or refactored code 
+
+function  calculateAge(birthYear, targetYear) {
+	if(birthYear == targetYear) return 'You were born this very year!';
+  var year = Math.abs(birthYear-targetYear) == 1 ? 'year' : 'years';
+  if(birthYear < targetYear) return `You are ${targetYear - birthYear} ${year} old`
+  if(birthYear > targetYear) return `You will be born in ${-targetYear + birthYear} ${year}.`
+}
