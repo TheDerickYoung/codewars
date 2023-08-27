@@ -9,7 +9,7 @@
 
 function evaporator(content, evap_per_day, threshold){ 
   const thresholdFraction = threshold / 100;
-  let remainingContent = 100; // Start with 100% content
+  let remainingContent = 100; 
   let days = 0;
 
   while (remainingContent > thresholdFraction * 100) {
