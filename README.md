@@ -14,4 +14,4 @@ The first thing I do every day is solve a Codewar!
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability.
 ## Lessons Learned:
 
-The Biggest Lesson I learned in tackling this endless supply of questions is understanding that there is a long way to go. Not being able to answer a question is okay, as long as you take the initiative to improve.
+The Biggest Lesson I learned in tackling this endless supply of questions is understanding that there is a long way to go. Not being able to answer a question is okay, as long as you take the initiative to improve..
