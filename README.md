@@ -2,7 +2,7 @@
 
 <img width="1439" alt="codewars-profile" src="https://github.com/TheDerickYoung/javascript-coding-challenge-solutions/assets/119906716/d35d64fe-8ec5-4d83-8a71-2d8459985cde">
 
-A repository filled with codewars challenges (kata). Completed over 500+ challenges and Push 5 solutions every week.
+A repository filled with codewars & leetcode challenges (kata). Completed over 500+ challenges and Push 5 solutions every week.
 
 ## How It's Made:
 
