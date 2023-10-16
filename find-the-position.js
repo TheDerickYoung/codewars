@@ -11,3 +11,10 @@ function position(letter) {
   const nonNullElement = positions.find(position => position !== null);
   return nonNullElement !== undefined && `Position of alphabet: ${nonNullElement}`;
 }
+
+//refactored code
+
+function position(letter){
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+  return 'Position of alphabet: ' + (alphabet.indexOf(letter) + 1);
+}
