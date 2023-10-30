@@ -8,7 +8,7 @@ A repository filled with codewars & leetcode challenges (kata). Completed over 5
 
 Languages Used: JavaScript 
 
-The first thing I do every day is solve a Codewar!
+The first thing I do every day is solve a Codewar.
 ## Optimizations:
 
 I consistently refactor and optimize my code, sometimes for efficiency, sometimes for readability.
