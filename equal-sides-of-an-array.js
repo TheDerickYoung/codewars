@@ -27,3 +27,18 @@
 //Note:
 //If you are given an array with multiple answers, return the lowest correct index.
 
+function findEvenIndex(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    const leftSide = arr.slice(0, i);
+    const rightSide = arr.slice(i + 1);
+
+    const sumLeft = leftSide.reduce((acc, num) => acc + num, 0);
+    const sumRight = rightSide.reduce((acc, num) => acc + num, 0);
+
+    if (sumLeft === sumRight) {
+      return i;
+    }
+  }
+
+  return -1;
+}
