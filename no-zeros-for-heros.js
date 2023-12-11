@@ -9,3 +9,12 @@
 //1050 -> 105
 //-1050 -> -105
 
+function noBoringZeros(n) {
+  let split = n.toString().split('');
+
+  while (split.length > 1 && split[split.length - 1] === '0') {
+    split.pop();
+  }
+
+  return Number(split.join(''));
+}
