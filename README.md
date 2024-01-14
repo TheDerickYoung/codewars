@@ -6,7 +6,7 @@ A repository filled with codewars & leetcode challenges (kata). Completed over 5
 
 ## How It's Made:
 
-Languages Used: JavaScript 
+Languages Used: JavaScript & C#
 
 The first thing I do most days is solve a Codewar.
 ## Optimizations:
