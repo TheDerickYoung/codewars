@@ -1,0 +1,9 @@
+/* Find the sum of the odd numbers within an array, after cubing the initial integers. The function should return undefined if any of the values aren't numbers. */
+
+function cubeOdd(arr) {
+  if (arr.some(e => isNaN(e))) {
+    return undefined
+  }
+  
+  return arr.filter(e => e % 2 !== 0).map(e => Math.pow(e, 3)).reduce((a, b) => a + b, 0)
+}
